@@ -5,7 +5,9 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { counterSlice } from './counterSlice.ts'
 export const store = configureStore({
-  reducer: {
+    // این ردیوسر اون ردیوسری نیست که قرار فانکشن ها درونش باشند  این یکی دیگس
+//    مال store هست
+    reducer: {
     counter: counterSlice.reducer,
   },
 })

@@ -8,7 +8,7 @@ export const counterSlice=createSlice({
     // مقدار اولیه هست
     // مقدار اولیه State را مشخص می‌کند.
     initialState:{
-        value:5,
+        value:0,
     }, 
         // داخل ردیوسر میگیم که استیت چگونه تغییر کند
     reducers:{

@@ -11,6 +11,7 @@ export default function UpBox3() {
   return (
     <div className='bg-yellow-400 p-4'>
         <h3>UpBox3</h3>
+        {/* اینجا هم ازش استفاده کردیم */}
         <p>counter:{counter}</p>
     </div>
   )
