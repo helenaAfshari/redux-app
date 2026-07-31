@@ -12,6 +12,13 @@ export const counterSlice=createSlice({
     }, 
         // داخل ردیوسر میگیم که استیت چگونه تغییر کند
     reducers:{
-      
+// چون میخواییم تغییر بدیم استیت رو پس از اینجا تغییر اعمال میشه  پس استیت هست اسمش 
+       increment:(state)=>{
+            state.value+=1;
+       },
+       decrement:(state)=>{
+        state.value-=1;
+       }
     }
-})
+});
+
