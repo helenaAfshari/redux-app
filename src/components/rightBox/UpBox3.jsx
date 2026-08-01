@@ -24,6 +24,8 @@ export default function UpBox3() {
  <button className="bg-blue-500 text-white px-4 py-2 rounded" onClick={() => dispatch(counterSlice.actions.decrement())}>
     decrement
  </button>
+  <button className="bg-blue-500 text-white px-4 py-2 rounded"
+   onClick={()=>dispatch(counterSlice.actions.incrementByAmount({amount:2,qty:4}))}>incrementByAmount</button>
    <br/>
         {/* اینجا هم ازش استفاده کردیم */}
         <p>counter:{counter}</p>
